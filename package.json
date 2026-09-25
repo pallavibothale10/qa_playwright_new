@@ -1,0 +1,19 @@
+{
+  "name": "qa-playwright-assignment",
+  "version": "1.0.0",
+  "description": "Playwright UI (saucedemo) and API (reqres) test suite",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "dotenv": "^18.0.3"
+  }
+}
